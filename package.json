@@ -1,29 +1,22 @@
 {
-  "name": "jest-slack-reporter",
-  "version": "0.1.1",
-  "description": "Send custom Slack messages as a Jest test results processor.",
+  "name": "jest-slack-reporter-custom-message",
+  "version": "1.0.0",
+  "description": "Jest slack reporter with custom message",
   "main": "index.js",
-  "scripts": {
+   "scripts": {
     "test": "jest",
     "dev": "jest --watch"
   },
-  "keywords": [
-    "jest",
-    "slack",
-    "plugin",
-    "test",
-    "reporter"
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vall3y/jest-slack-reporter.git"
+    "url": "git+https://github.com/Qambar/jest-slack-reporter-custom-message.git"
   },
-  "homepage": "https://github.com/Vall3y/jest-slack-reporter",
-  "author": {
-    "email": "vall3y@gmail.com",
-    "name": "Guy Zissman"
+  "author": "Qambar Raza <raza@bozims.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qambar/jest-slack-reporter-custom-message/issues"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/Qambar/jest-slack-reporter-custom-message#readme",
   "dependencies": {
     "read-pkg": "^2.0.0",
     "request": "^2.81.0"
