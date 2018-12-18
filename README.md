@@ -1,6 +1,6 @@
-# Jest JSON Reporter
+# Jest Slack Reporter Custom Message
 
-Jest reporter that notifies a slack channel via Incoming Webhook integration
+Jest slack reporter that notifies a slack channel via Incoming Webhook integration, you can set your own custom message on success or failure of the test.
 
 ## Set up
 
@@ -18,6 +18,8 @@ Jest reporter that notifies a slack channel via Incoming Webhook integration
 ```
 ...
 "jest": {
-  "testResultsProcessor": "./node_modules/jest-slack-reporter"
+  "testResultsProcessor": "./node_modules/jest-slack-reporter",
+  "failMessage": "Some tests have failed",
+  "passMessage": "All tests have passed"
 },
 ...
